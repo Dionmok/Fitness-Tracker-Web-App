@@ -1,0 +1,437 @@
+ 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(77, 186, 206, 0.782);
+  color: rgb(26, 109, 45);
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 140px;
+}
+
+.descriptioncreate{
+  position: relative;
+  bottom: 450px;
+}
+
+.addNav{
+  position: relative;
+  bottom: 221px;
+}
+
+.headerhome{
+  position: relative;
+  bottom: 125px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.descriptionhome{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 140px;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.rectangle {
+  display: inline-block;
+  width: 1000px;
+  height: 700px;
+  background: pink;
+  border: 10px solid #034f1d;
+  padding-top: 130px;
+  padding-bottom: 60px; 
+  background-image: linear-gradient(to bottom, rgba(77, 186, 206, 0.782) 0%, rgba(77, 186, 206, 0.782) 100%), linear-gradient(to bottom, white 0%, white 100%);
+  background-clip: content-box, padding-box;
+  position: relative;
+  bottom: 5px;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 1px;
+}
+
+td:nth-child(0) {
+  width: 10px;
+}
+
+
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 800px;
+  max-height: 400px ;
+  height: 400px;
+  width: 100%;
+  padding: 0px;
+  margin: 2rem auto;
+  position: relative;
+  bottom:202px ;
+  font-size: 20px;
+  margin-top: 100px;
+
+}
+
+tr {
+  height:1px
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: right;
+  background-color: #14a0d3;
+  color: white;
+}
+
+
+
+
+
+input {
+ margin: 0; 
+ padding: 0;
+}
+
+form{
+  margin: 0; 
+  padding: 0;
+}
+
+.headerpages{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.footerhome{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+.homeaddhome{
+  text-align: center;
+  position: relative;
+  bottom: 120px;
+}
+
+.footerhome{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  font-size: 25px;
+}
+
+.createTable{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 800px;
+  height: 100px;
+  width: 100%;
+  padding: 0px;
+  margin: 2rem auto;
+  position: relative;
+  top:80px ;
+  font-size: 20px;
+
+}
+
+.editTable{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 800px;
+  height: 100px;
+  width: 100%;
+  padding: 0px;
+  margin: 2rem auto;
+  position: relative;
+  top:100px ;
+  font-size: 20px;
+
+}
+
+.footeredit{
+  text-align: center;
+  position: relative;
+  top: 180px;
+  font-size: 25px;
+}
+
+.generalText{ 
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(26, 109, 45);
+}
+
+.editDescription{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(26, 109, 45);
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 460px;
+
+}
+
+.headeredit{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 470px;
+}
+
+.buttonStyleEdit{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: green;
+  background: gray;
+  margin-bottom: 20px;
+  text-decoration: none;
+  position: relative;
+  bottom: 180px; 
+}
+
+.descriptionedit{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 480px;
+}
+
+.saveButton{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  margin: 0px;
+  left: 340px;
+  top: 20px;
+  background-color: rgb(172, 235, 235);
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial;
+  font-size: 30px;
+  box-shadow: inset 0 0 0 0 white;
+  transition: ease-out 0.0s;
+  outline: none;
+
+}
+
+.saveButton:hover{
+  box-shadow:inset 500px 0 0 0 white;
+  color:rgb(12, 165, 216);
+}
+
+.rectangle4 {
+  display: inline-block;
+  width: 117px;
+  height: 60px;
+  background: white;
+  border-right: 3px solid #034f1d;
+  border-bottom: 3px solid #034f1d;
+  border-radius: 5px;
+  padding-bottom: 0px; 
+  position: relative;
+  left: 340px;
+  top: 85px;
+}
+
+.buttonStyle{
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  background: rgba(77, 186, 206, 0.782);
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.buttonStyle:hover{
+  background-color: white ;
+  color: rgba(77, 186, 206, 0.782);
+
+}
+
+.editNavigation{
+  position: relative;
+  bottom: 270px
+}
+
+.inputName{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid green;
+  color: green;
+  padding: 0px; 
+  font-size: 20px; 
+  width: 150px;
+  margin: 0px;
+  font-family: Arial;
+
+}
+
+.inputReps{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid green;
+  color: green;
+  padding: 0px; 
+  font-size: 20px; 
+  width: 50px;
+  margin-left: 30px;
+  font-family: Arial;
+
+}
+
+.inputWeight{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid green;
+  color: green;
+  padding: 0px; 
+  font-size: 20px; 
+  width: 50px;
+  margin-left: 30px;
+  font-family: Arial;
+
+}
+
+
+select{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid green;
+  color: green;
+  padding: 0px; 
+  font-size: 20px; 
+  width: 50px;
+  margin-left: 30px;
+  font-family: Arial;
+
+}
+
+.inputDate{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid green;
+  color: green;
+  padding: 0px; 
+  font-size: 20px; 
+  width: 150px;
+  margin: 0px;
+  font-family: Arial;
+
+}
+
+.headercreate{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 435px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 109, 45);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.footercreate{
+  position: relative;
+  top: 400px ;
+}
+
+.createButton{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  margin: 0px;
+  left: 287px;
+  top: 33px;
+  background-color: rgb(172, 235, 235);
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial;
+  font-size: 30px;
+  box-shadow: inset 0 0 0 0 white;
+  transition: ease-out 0.0s;
+  outline: none;
+
+}
+
+.createButton:hover{
+  box-shadow:inset 500px 0 0 0 white;
+  color:rgb(12, 165, 216);
+}
+
+
+.rectangle3 {
+  display: inline-block;
+  width: 117px;
+  height: 60px;
+  background: white;
+  border-right: 3px solid #034f1d;
+  border-bottom: 3px solid #034f1d;
+  border-radius: 5px;
+  padding-bottom: 0px; 
+  position: relative;
+  left: 390px;
+  top: 55px;
+}
+
+.generalText{
+  position: relative;
+  top: 40px;
+}
